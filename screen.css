@@ -1,0 +1,19 @@
+body {
+ background: linear-gradient(100deg, #f5abce, #ceabf5);
+}
+h1, h2, form {
+ text-align: center;
+ font-family: 'Gayathri', sans-serif;
+}
+button {
+  background-color: white;
+  border-radius: 12px;
+  color: black;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Gayathri', sans-serif;
+}
+div {
+  text-align: center;
+}

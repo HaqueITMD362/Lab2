@@ -4,10 +4,22 @@
   <title>Lab 2</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-  <link rel="stylesheet" media="screen" href="css/reset.css" />
-  <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <link rel="stylesheet" media="screen" href="reset.css" />
+  <link rel="stylesheet" media="screen" href="screen.css" />
+  <link href="https://fonts.googleapis.com/css?family=Gayathri&display=swap" rel="stylesheet">
 </head>
 <body>
-
+	<h1> Welcome! </h1>
+	<h2> Please enter the information below: </h2>
+	<form method="POST" autocomplete = "on" enctype="multipart/form-data">
+		<p><label> First Name: <input type="text" name="first_name_field"></label></p>
+		<p><label> Last Name: <input type="text" name="last_name_field"></label></p>
+		<p><label> Phone Number: <input type="tel" name="phone_field" placeholder="123-456-7890"></label></p>
+		<p><label> Email Address: <input type="email" name="email_field" placeholder="email@email.com"></label></p>
+		<p><label> Date of Birth: <input type="text" name="dob_field" placeholder="mm/dd/yyyy"></label></p>
+	</form>
+	<div>
+	<button type="button"> Submit </button>
+	</div>
 </body>
 </html>
