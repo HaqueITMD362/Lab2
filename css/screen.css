@@ -2,8 +2,17 @@ body {
  background: linear-gradient(100deg, #f5abce, #ceabf5);
 }
 h1, h2, form {
+ padding: 5px;
  text-align: center;
  font-family: 'Gayathri', sans-serif;
+ font-weight: bold;
+}
+h1 {
+	 font-size: 40px;
+	 padding: 15px;
+}
+h2 {
+	 font-size: 30px;
 }
 #button {
   background-color: white;
@@ -16,4 +25,8 @@ h1, h2, form {
 }
 div {
   text-align: center;
+  padding: 20px;
+}
+p{
+  padding: 15px;
 }
